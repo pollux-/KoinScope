@@ -1,0 +1,10 @@
+[debug] [2019-10-13T05:03:54.557Z] ----------------------------------------------------------------------
+[debug] [2019-10-13T05:03:54.558Z] Command:       /usr/local/bin/firebase /Users/sreekumarav/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase login
+[debug] [2019-10-13T05:03:54.559Z] CLI Version:   7.5.0
+[debug] [2019-10-13T05:03:54.559Z] Platform:      darwin
+[debug] [2019-10-13T05:03:54.559Z] Node Version:  v8.16.0
+[debug] [2019-10-13T05:03:54.559Z] Time:          Sat Oct 12 2019 22:03:54 GMT-0700 (PDT)
+[debug] [2019-10-13T05:03:54.559Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+

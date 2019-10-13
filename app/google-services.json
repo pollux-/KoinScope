@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717023762309",
+    "firebase_url": "https://testbeta-98bd4.firebaseio.com",
+    "project_id": "testbeta-98bd4",
+    "storage_bucket": "testbeta-98bd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717023762309:android:1a7c9bca3ad336709656ec",
+        "android_client_info": {
+          "package_name": "com.koin.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717023762309-bvb0agl43o6ngc56b251oph4grtrvp83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcBxNIXLUrzg2hW_PGG0VGp5AXTf24iS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717023762309-bvb0agl43o6ngc56b251oph4grtrvp83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
