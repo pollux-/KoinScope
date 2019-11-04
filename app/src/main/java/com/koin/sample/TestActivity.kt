@@ -16,12 +16,6 @@ class TestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Log.d("TEST", "Token ::  " + session.getToken())
-
-        val scope = getKoin().getScope("sessionID")
-        scope.close()
-        getKoin().deleteScope("sessionID")
-
 
         Log.d("TEST", "Token ::  " + session.getToken())
 

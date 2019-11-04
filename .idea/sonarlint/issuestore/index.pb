@@ -21,3 +21,11 @@ f
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 a
 1app/src/main/java/com/koin/sample/MainActivity.kt,8/8/886b7dbf08ee5d2641637620bf3e351fbada95eb
+>
+app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
+H
+app/google-services.json,f/d/fd8d34b142d02ec743a8efefefd2c097961666e9
+>
+.gitlab-ci.yml,5/8/587d266bb27a4dc3022bbed44dfa19849df3044c
+7
+Gemfile,d/e/de3150c01c3a946a6168173c4116741379fe3579

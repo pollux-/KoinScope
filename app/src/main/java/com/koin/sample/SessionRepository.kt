@@ -4,7 +4,6 @@ interface SessionRepository {
     fun getSession(): String
 }
 
-class SessionRepositoryImpl(private val session:() -> Session) : SessionRepository {
-    override fun getSession() = session().getToken()
-    
+class SessionRepositoryImpl(private val session: Session) : SessionRepository {
+    override fun getSession() = session.getToken()
 }

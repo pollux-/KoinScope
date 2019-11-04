@@ -4,14 +4,16 @@ import org.koin.core.qualifier.named
 import org.koin.dsl.module
 
 val appModule = module {
+
     scope(named("session")) {
         scoped { Session() }
     }
 
     single<SessionRepository> {
-        // SessionRepositoryImpl(getScope("sessionID").get<Session>()) as SessionRepository
-        val sessionProvider = { getScope("sessionID").get<Session>() }
-        SessionRepositoryImpl(sessionProvider)
+        val scope = getKoin().getOrCreateScope(
+            "sessionID", named("session"))
+        val session = scope.getScope("sessionID").get<Session>()
+        SessionRepositoryImpl(session)
     }
     single { SessionPresenter(get()) }
 }

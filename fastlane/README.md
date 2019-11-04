@@ -49,7 +49,7 @@ Deploy a new version to the Google Play
 ```
 fastlane android distribute
 ```
-Deploying Beta to firbase
+Deploying Debug build to firebase
 
 ----
 

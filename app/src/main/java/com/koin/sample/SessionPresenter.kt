@@ -1,6 +1,7 @@
 package com.koin.sample
 
 import org.koin.core.KoinComponent
+import org.koin.core.qualifier.named
 
 class SessionPresenter(val repo: SessionRepository) : KoinComponent {
 
@@ -10,6 +11,6 @@ class SessionPresenter(val repo: SessionRepository) : KoinComponent {
         val scope = getKoin().getScope("sessionID")
         scope.close()
         getKoin().deleteScope("sessionID")
+        getKoin().createScope("sessionID", named("session"))
     }
-
 }

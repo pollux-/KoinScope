@@ -40,11 +40,15 @@ platform :android do
     supply
   end
 
-  desc "Deploying Beta to firebase"
+  desc "Deploying Debug build to firebase"
       lane :distribute do
+        gradle(
+            task: 'assemble',
+            build_type: ‘Debug’
+          )
+
           firebase_app_distribution(
               app: "1:717023762309:android:1a7c9bca3ad336709656ec",
-              testers: "sreekumar.av@ymedialabs.com, sreevijayan.ak@gmail.com",
               release_notes: "Lots of amazing new features to test out!",
               firebase_cli_path: "/usr/local/bin/firebase"
           )
